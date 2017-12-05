@@ -7,23 +7,49 @@
     <title></title>
   </head>
   <body>
-      <nav class="container-fluid">
-        <div class="row justify-content-between">
-          <div class="col-6">Sarah</div>
-          <div class="col-6">
-            <div class="row justify-content-around menubar">
-              <a href="index.html" class="col-2">home</a>
-              <a href="menu.html" class="col-2">menu</a>
-              <a href="photos.html" class="col-2">gallery</a>
-              <a href="restaurants.html" class="col-3">restaurants</a>
-              <a href="contactus.html" class="col-2">contact us</a>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">Yummy Foods</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="menu.html">Menu</a>
+          <a class="nav-item nav-link" href="photos.html">gallery</a>
+          <a class="nav-item nav-link" href="restaurants.html">restaurants</a>
+          <a class="nav-item nav-link" href="contactus.html">contact us</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron" style="background-color: #FFF;">
+        <h1 class="display-3">Welcome!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      </div>
+      <div class="row justify-content-around">
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/sushi.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-      </nav>
-    <div id="main">
-      <h1>homepage</h1>
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="http://dl.maxpixel.freegreatpicture.com/?f=buffet-1946541_1920.jpg&type=Download&token=a1ce2c9a42337b11edeec6e628478b81&pid=1946541" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- <img src="https://static.pexels.com/photos/225448/pexels-photo-225448.jpeg" alt=""> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>

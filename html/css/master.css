@@ -1,12 +1,15 @@
 html{
   margin: 0;
   padding: 0;
+  /*
+  https://c1.staticflickr.com/8/7173/6598253987_530950c711_b.jpg
+   */
 }
-
 body{
-
+  background-image: url(/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/background-image.jpg);
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
 }
-
-.menubar{
-  text-align: center;
+.container{
+  padding-top: 15px;
 }
