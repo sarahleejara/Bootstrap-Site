@@ -7,14 +7,16 @@
     <title></title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="#">Yummy Foods</a>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #FFF;">
+      <a class="navbar-brand" href="#"><img class="logo" src="/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/logo.png" width="30" height="30" alt="">
+        SushiLover
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="navbar-nav links">
+          <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="menu.html">Menu</a>
           <a class="nav-item nav-link" href="photos.html">gallery</a>
           <a class="nav-item nav-link" href="restaurants.html">restaurants</a>
@@ -23,27 +25,31 @@
       </div>
     </nav>
     <div class="container">
-      <div class="jumbotron" style="background-color: #FFF;">
+      <div class="jumbotron intro" style="background-color: #FFF;">
         <h1 class="display-3">Welcome!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <p class="lead"></p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <!-- code to use when quoting someone with bootstrap -->
+        <blockquote class="blockquote mb-0">
+          <p>The fine art of preparing sushi is something that you watch and learn.</p>
+          <footer class="blockquote-footer">Nobu Matsuhisa</footer>
+        </blockquote>
       </div>
-      <div class="row justify-content-around">
-        <div class="card" style="width: 20rem;">
+      <div class="row justify-content-around panels">
+        <div class="card" style="width: 45%;">
           <img class="card-img-top" src="/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/sushi.jpg" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h4 class="card-title">Menu</h4>
+            <p></p>
+            <a href="#" class="btn btn-primary">Learn More</a>
           </div>
         </div>
-        <div class="card" style="width: 20rem;">
-          <img class="card-img-top" src="http://dl.maxpixel.freegreatpicture.com/?f=buffet-1946541_1920.jpg&type=Download&token=a1ce2c9a42337b11edeec6e628478b81&pid=1946541" alt="Card image cap">
+        <div class="card" style="width: 45%;">
+          <img class="card-img-top" src="/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/restaurants.jpg" alt="Card image cap">
           <div class="card-body">
-            <h4 class="card-title">Card title</h4>
+            <h4 class="card-title">our restaurants</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">find us</a>
           </div>
         </div>
       </div>
