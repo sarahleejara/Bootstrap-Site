@@ -2,7 +2,7 @@
   text-transform: capitalize;
 }
 body{
-  background-image: url(/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/the-stones.jpg);
+  background-image: url(../images/the-stones.jpg);
   background-size: 1000px;
   background-position: center;
   background-repeat: no-repeat;

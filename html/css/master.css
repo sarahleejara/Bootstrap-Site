@@ -6,7 +6,7 @@ html{
    */
 }
 body{
-  background-image: url(/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/flowers.jpg);
+  background-image: url(../images/flowers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 

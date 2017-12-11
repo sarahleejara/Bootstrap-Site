@@ -2,7 +2,7 @@
   text-transform: capitalize;
 }
 body{
-  background-image:url(/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/desk.jpg);
+  background-image:url(../images/desk.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
