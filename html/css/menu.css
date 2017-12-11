@@ -14,3 +14,6 @@ body{
 .links{
   text-transform: capitalize;
 }
+.container{
+  margin-top: 80px;
+}

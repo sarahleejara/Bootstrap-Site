@@ -4,5 +4,12 @@
 body{
   background-image: url(/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/the-stones.jpg);
   background-size: 1000px;
+  background-position: center;
   background-repeat: no-repeat;
+}
+.logo{
+  vertical-align: top;
+}
+.container{
+  margin-top: 80px;
 }

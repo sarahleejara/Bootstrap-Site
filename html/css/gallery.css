@@ -1,3 +1,18 @@
 .links{
   text-transform: capitalize;
 }
+body{
+  background-image: url(/home/sarahlee/Exercices/BOOTSTRAP/Bootstrap-Site/html/images/japanese-peace-park.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo{
+  vertical-align: top;
+}
+.page-item, .page-link{
+  color: black;
+}
+.container{
+  margin-top: 80px;
+}
